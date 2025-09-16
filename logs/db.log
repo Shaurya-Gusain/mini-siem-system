@@ -1,0 +1,15 @@
+[2025-09-04 12:00:00] INFO: Database service initialized
+[2025-09-04 12:01:15] INFO: Connection established with application server
+[2025-09-04 12:02:30] ERROR: Query execution failed (syntax error)
+[2025-09-04 12:03:45] DEBUG: Transaction committed
+[2025-09-04 12:05:00] ERROR: Transaction rolled back
+[2025-09-04 12:06:15] INFO: Backup job started
+[2025-09-04 12:07:30] WARNING: Slow query execution (5.3s)
+[2025-09-04 12:08:45] INFO: Backup job completed
+[2025-09-04 12:10:00] ERROR: Connection lost with replica node
+[2025-09-04 12:11:20] INFO: Replica node reconnected
+[2025-09-04 12:12:35] DEBUG: Cache refreshed
+[2025-09-04 12:13:50] WARNING: Deadlock detected on table Orders
+[2025-09-04 12:15:05] ERROR: Constraint violation on insert
+[2025-09-04 12:16:20] INFO: Database optimization completed
+[2025-09-04 12:17:40] CRITICAL: Primary database node unavailable

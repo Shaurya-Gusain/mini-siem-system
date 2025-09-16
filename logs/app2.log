@@ -1,0 +1,15 @@
+[2025-09-04 10:00:00] INFO: User 'alice' logged in
+[2025-09-04 10:01:15] ERROR: Invalid user credentials for 'bob'
+[2025-09-04 10:02:30] INFO: User 'alice' logged out
+[2025-09-04 10:03:45] INFO: User 'charlie' logged in
+[2025-09-04 10:05:10] WARNING: Multiple failed login attempts for 'bob'
+[2025-09-04 10:06:30] ERROR: Failed login for user 'bob' from 192.168.1.25
+[2025-09-04 10:07:50] INFO: User 'charlie' logged out
+[2025-09-04 10:09:05] INFO: User 'dave' logged in
+[2025-09-04 10:10:20] ERROR: Invalid user credentials for 'eve'
+[2025-09-04 10:11:45] INFO: User 'dave' logged out
+[2025-09-04 10:13:00] WARNING: Failed login attempt for 'eve'
+[2025-09-04 10:14:15] INFO: User 'frank' logged in
+[2025-09-04 10:15:30] ERROR: Unauthorized access attempt from 10.0.0.55
+[2025-09-04 10:16:50] INFO: User 'frank' logged out
+[2025-09-04 10:18:10] CRITICAL: Brute force attack detected on account 'bob'

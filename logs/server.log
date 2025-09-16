@@ -1,0 +1,15 @@
+[2025-09-04 11:00:05] INFO: Server started
+[2025-09-04 11:01:15] INFO: Health check passed
+[2025-09-04 11:02:30] WARNING: High memory usage (85%)
+[2025-09-04 11:03:45] ERROR: Connection timeout to service API
+[2025-09-04 11:05:20] CRITICAL: Out of disk space
+[2025-09-04 11:06:35] INFO: Disk cleanup initiated
+[2025-09-04 11:07:50] WARNING: High CPU usage (92%)
+[2025-09-04 11:09:05] INFO: Disk cleanup completed
+[2025-09-04 11:10:20] ERROR: Service restart failed
+[2025-09-04 11:11:45] INFO: Service restarted successfully
+[2025-09-04 11:13:00] WARNING: Network latency detected
+[2025-09-04 11:14:15] ERROR: DNS resolution failed
+[2025-09-04 11:15:30] DEBUG: Thread pool resized
+[2025-09-04 11:16:50] CRITICAL: Kernel panic – system halted
+[2025-09-04 11:18:05] INFO: Server recovered from crash

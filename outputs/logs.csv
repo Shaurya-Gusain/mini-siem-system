@@ -1,0 +1,61 @@
+timestamp,level,message,user,ip,source_file
+2025-09-04 09:00:01,INFO,Application started,,,app1.log
+2025-09-04 09:05:12,WARNING,Low memory,,,app1.log
+2025-09-04 09:06:30,ERROR,Failed to load module,,,app1.log
+2025-09-04 09:07:00,INFO,Cache initialized,,,app1.log
+2025-09-04 09:08:45,DEBUG,Session cleanup executed,,,app1.log
+2025-09-04 09:09:30,INFO,User requested resource /dashboard,,,app1.log
+2025-09-04 09:10:25,ERROR,Null pointer exception in service handler,,,app1.log
+2025-09-04 09:12:00,WARNING,Slow response detected (2500 ms),,,app1.log
+2025-09-04 09:13:45,INFO,Application health check passed,,,app1.log
+2025-09-04 09:14:10,ERROR,Failed dependency injection,,,app1.log
+2025-09-04 09:15:30,DEBUG,Background job executed,,,app1.log
+2025-09-04 09:16:45,WARNING,Deprecated API usage detected,,,app1.log
+2025-09-04 09:18:00,INFO,Application heartbeat active,,,app1.log
+2025-09-04 09:19:10,ERROR,Session timeout for,guest,,app1.log
+2025-09-04 09:20:30,CRITICAL,Unexpected application shutdown,,,app1.log
+2025-09-04 10:00:00,INFO,User 'alice' logged in,,,app2.log
+2025-09-04 10:01:15,ERROR,Invalid user credentials for 'bob',,,app2.log
+2025-09-04 10:02:30,INFO,User 'alice' logged out,,,app2.log
+2025-09-04 10:03:45,INFO,User 'charlie' logged in,,,app2.log
+2025-09-04 10:05:10,WARNING,Multiple failed login attempts for 'bob',,,app2.log
+2025-09-04 10:06:30,ERROR,Failed login for,bob,192.168.1.25,app2.log
+2025-09-04 10:07:50,INFO,User 'charlie' logged out,,,app2.log
+2025-09-04 10:09:05,INFO,User 'dave' logged in,,,app2.log
+2025-09-04 10:10:20,ERROR,Invalid user credentials for 'eve',,,app2.log
+2025-09-04 10:11:45,INFO,User 'dave' logged out,,,app2.log
+2025-09-04 10:13:00,WARNING,Failed login attempt for 'eve',,,app2.log
+2025-09-04 10:14:15,INFO,User 'frank' logged in,,,app2.log
+2025-09-04 10:15:30,ERROR,Unauthorized access attempt from 10.0.0.55,,,app2.log
+2025-09-04 10:16:50,INFO,User 'frank' logged out,,,app2.log
+2025-09-04 10:18:10,CRITICAL,Brute force attack detected on account 'bob',,,app2.log
+2025-09-04 12:00:00,INFO,Database service initialized,,,db.log
+2025-09-04 12:01:15,INFO,Connection established with application server,,,db.log
+2025-09-04 12:02:30,ERROR,Query execution failed (syntax error),,,db.log
+2025-09-04 12:03:45,DEBUG,Transaction committed,,,db.log
+2025-09-04 12:05:00,ERROR,Transaction rolled back,,,db.log
+2025-09-04 12:06:15,INFO,Backup job started,,,db.log
+2025-09-04 12:07:30,WARNING,Slow query execution (5.3s),,,db.log
+2025-09-04 12:08:45,INFO,Backup job completed,,,db.log
+2025-09-04 12:10:00,ERROR,Connection lost with replica node,,,db.log
+2025-09-04 12:11:20,INFO,Replica node reconnected,,,db.log
+2025-09-04 12:12:35,DEBUG,Cache refreshed,,,db.log
+2025-09-04 12:13:50,WARNING,Deadlock detected on table Orders,,,db.log
+2025-09-04 12:15:05,ERROR,Constraint violation on insert,,,db.log
+2025-09-04 12:16:20,INFO,Database optimization completed,,,db.log
+2025-09-04 12:17:40,CRITICAL,Primary database node unavailable,,,db.log
+2025-09-04 11:00:05,INFO,Server started,,,server.log
+2025-09-04 11:01:15,INFO,Health check passed,,,server.log
+2025-09-04 11:02:30,WARNING,High memory usage (85%),,,server.log
+2025-09-04 11:03:45,ERROR,Connection timeout to service API,,,server.log
+2025-09-04 11:05:20,CRITICAL,Out of disk space,,,server.log
+2025-09-04 11:06:35,INFO,Disk cleanup initiated,,,server.log
+2025-09-04 11:07:50,WARNING,High CPU usage (92%),,,server.log
+2025-09-04 11:09:05,INFO,Disk cleanup completed,,,server.log
+2025-09-04 11:10:20,ERROR,Service restart failed,,,server.log
+2025-09-04 11:11:45,INFO,Service restarted successfully,,,server.log
+2025-09-04 11:13:00,WARNING,Network latency detected,,,server.log
+2025-09-04 11:14:15,ERROR,DNS resolution failed,,,server.log
+2025-09-04 11:15:30,DEBUG,Thread pool resized,,,server.log
+2025-09-04 11:16:50,CRITICAL,Kernel panic – system halted,,,server.log
+2025-09-04 11:18:05,INFO,Server recovered from crash,,,server.log
